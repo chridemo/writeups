@@ -1,4 +1,4 @@
-<img src="facts.png" alt="facts" width="200" style="border-radius: 50%;">
+<img src="../facts.png" alt="facts" style="border-radius: 50%; width: 150px;"> 
 
 # Facts - HackTheBox Writeup
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Enumeration
+## Enumeration
 
 ### Nmap
 
@@ -34,7 +34,7 @@ Camaleon CMS - Version 2.9.0
 
 ---
 
-## 🗡️ Exploitation - CVE-2025-2304
+## Exploitation - CVE-2025-2304
 
 Cercando su GitHub si trova **CVE-2025-2304**, una vulnerabilità di privilege escalation nel CMS che permette di elevare un account utente a ruolo admin.
 
@@ -46,7 +46,7 @@ Il nostro account viene promosso ad **admin** sul pannello CMS.
 
 ---
 
-## 🛠️ Lateral Movement - AWS S3 Misconfiguration
+## Lateral Movement - AWS S3 Misconfiguration
 
 Dal pannello admin si recuperano le credenziali per un bucket S3 interno:
 
@@ -115,7 +115,7 @@ ssh -i id_ed25519 trivia@facts.htb
 
 ---
 
-## 🪜 Privilege Escalation - facter SUID abuse
+## Privilege Escalation - facter SUID abuse
 
 ```bash
 sudo -l
@@ -138,7 +138,7 @@ bash -p
 ```
 ---
 
-## 🎓 Lessons Learned
+## Lessons Learned
 
 | # | Takeaway |
 |---|----------|
