@@ -22,6 +22,8 @@ PORT   STATE SERVICE VERSION
 
 Due porte aperte. Si parte dall'applicazione web su porta 80.
 
+---
+
 ### Web - Directory & Subdomain Fuzzing
 
 Enumerazione dei path nascosti (nessun risultato rilevante):
@@ -152,8 +154,8 @@ Si ottiene una shell come **`root`** sulla macchina host.
 
 | # | Takeaway |
 |---|----------|
-| 1 | L'enumerazione dei sottodomini è fondamentale — un subdomain come `grafana` può esporre superfici d'attacco critiche nascoste al dominio principale |
+| 1 | L'enumerazione dei sottodomini è fondamentale, può esporre superfici d'attacco critiche nascoste al dominio principale |
 | 2 | Verificare sempre la versione esatta dei servizi esposti: CVE-2024-9264 colpisce una versione molto recente di Grafana |
-| 3 | In un container, `env` e i file di configurazione web (es. `info.php`) possono rivelare credenziali riutilizzabili sull'host |
-| 4 | File come `/opt/crontabs/crontab.db` in posizioni non standard sono spesso trascurati ma possono contenere credenziali privilegiate |
-| 5 | Un servizio esposto solo su `localhost` non è sicuro: il port forwarding SSH lo rende raggiungibile e potenzialmente sfruttabile |
+| 3 | In un container, `env` e i file di configurazione web (es. `info.php`) possono rivelare credenziali riutilizzabili |
+| 4 | File come `/opt/crontabs/crontab.db` in posizioni non standard ma possono contenere credenziali privilegiate |
+| 5 | Un servizio esposto solo su `localhost` non è sicuro: il port forwarding SSH lo rende raggiungibile e sfruttabile |
