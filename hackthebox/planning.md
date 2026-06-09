@@ -1,4 +1,4 @@
-<img src="../planning.png" alt="planning" style="border-radius: 50%; width: 150px;">
+<img src="../images/planning.png" alt="planning" style="border-radius: 50%; width: 150px;">
 
 # Planning - HackTheBox Writeup
 > **Difficulty:** Easy &nbsp;|&nbsp; **OS:** Linux &nbsp;|&nbsp; **Season:** 7 - Resistance &nbsp;|&nbsp; **Date:** 09 Jun 2026
