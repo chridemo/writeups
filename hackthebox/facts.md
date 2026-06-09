@@ -1,4 +1,4 @@
-<img src="../facts.png" alt="facts" style="border-radius: 50%; width: 150px;"> 
+<img src="../images/facts.png" alt="facts" style="border-radius: 50%; width: 150px;"> 
 
 # Facts - HackTheBox Writeup
 
