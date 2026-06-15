@@ -4,7 +4,7 @@
 
 ---
 
-## 🌲 Structure
+## Structure
 
 These writeups document my approach to solving CTF challenges and machines. Each writeup includes:
 
@@ -17,7 +17,7 @@ These writeups document my approach to solving CTF challenges and machines. Each
 
 ---
 
-## 📁 Index
+## Index
 
 ### Hack The Box
 
