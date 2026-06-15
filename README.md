@@ -24,7 +24,7 @@ These writeups document my approach to solving CTF challenges and machines. Each
 | Name | Difficulty | OS | Category | Date |
 |------|------------|-----|----------|------|
 | Facts | Easy  | Linux | Hack The Box | 01 Mar 2026 |
-| Planning | Easy  | Linux | Hack The Box | 01 Mar 2026 |
+| Planning | Easy  | Linux | Hack The Box | 09 Jun 2026 |
 
 ### Try Hack Me
 
