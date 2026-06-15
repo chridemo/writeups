@@ -34,6 +34,6 @@ These writeups document my approach to solving CTF challenges and machines. Each
 
 ---
 
-## ⭐ Support
+## Support
 
 If you found these writeups helpful, consider leaving a star on the repo. Thanks!
